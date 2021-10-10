@@ -12,17 +12,12 @@ from .models import LibraryBook, Library, TakenBook
 from .serializers import LibrarySerializer, LibraryBookSerializer
 from library_service.settings import JWT_KEY
 
-BOOK_URL = "http://localhost:9002"
-SESSION_URL = "http://127.0.0.1:9003/api/v1/session"
-REPORT_URL = "http://127.0.0.1:9004/api/v1/report"
-RATING_URL = "http://127.0.0.1:9005/api/v1/rating"
-CONTROL_URL = "http://127.0.0.1:9006/api/v1/control"
-
-#BOOK_URL = "https://darzhain-book.herokuapp.com/api/v1/book"
-#SESSION_URL = "https://darzhain-session.herokuapp.com/api/v1/session"
-#REPORT_URL = "https://darzhain-report.herokuapp.com/api/v1/report"
-#RATING_URL = "https://darzhain-rating.herokuapp.com/api/v1/rating"
-#CONTROL_URL = "https://darzhain-control.herokuapp.com/api/v1/control"
+LIBRARY_URL = "http://https://litvinov-rsoi-library.herokuapp.com/api/v1/library"
+BOOK_URL = "http://https://litvinov-rsoi-book.herokuapp.com/api/v1/book"
+SESSION_URL = "http://https://litvinov-rsoi-session.herokuapp.com//api/v1/session"
+REPORT_URL = "http://https://litvinov-rsoi-report.herokuapp.com/api/v1/report"
+RATING_URL = "http://https://litvinov-rsoi-rating.herokuapp.com/api/v1/rating"
+CONTROL_URL = "http://litvinov-rsoi-control.herokuapp.com/api/v1/control"
 
 
 tz_MOS = pytz.timezone('Europe/Moscow')
