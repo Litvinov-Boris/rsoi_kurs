@@ -12,11 +12,11 @@ from .models import LibraryBook, Library, TakenBook
 from .serializers import LibrarySerializer, LibraryBookSerializer
 from library_service.settings import JWT_KEY
 
-LIBRARY_URL = "http://https://litvinov-rsoi-library.herokuapp.com/api/v1/library"
-BOOK_URL = "http://https://litvinov-rsoi-book.herokuapp.com/api/v1/book"
-SESSION_URL = "http://https://litvinov-rsoi-session.herokuapp.com//api/v1/session"
-REPORT_URL = "http://https://litvinov-rsoi-report.herokuapp.com/api/v1/report"
-RATING_URL = "http://https://litvinov-rsoi-rating.herokuapp.com/api/v1/rating"
+LIBRARY_URL = "https://litvinov-rsoi-library.herokuapp.com/api/v1/library"
+BOOK_URL = "https://litvinov-rsoi-book.herokuapp.com/api/v1/book"
+SESSION_URL = "https://litvinov-rsoi-session.herokuapp.com/api/v1/session"
+REPORT_URL = "https://litvinov-rsoi-report.herokuapp.com/api/v1/report"
+RATING_URL = "https://litvinov-rsoi-rating.herokuapp.com/api/v1/rating"
 CONTROL_URL = "http://litvinov-rsoi-control.herokuapp.com/api/v1/control"
 
 
