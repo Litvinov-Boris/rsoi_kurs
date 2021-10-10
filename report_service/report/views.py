@@ -11,8 +11,12 @@ from report_service.settings import JWT_KEY
 from .models import GenreStat, UserStat
 from .serializers import GenreStatSerializer, UserStatSerializer
 
-BOOK_URL = "http://127.0.0.1:9002/api/v1/book"
-#BOOK_URL = "https://darzhain-book.herokuapp.com/api/v1/book"
+LIBRARY_URL = "http://https://litvinov-rsoi-library.herokuapp.com/api/v1/library"
+BOOK_URL = "http://https://litvinov-rsoi-book.herokuapp.com/api/v1/book"
+SESSION_URL = "http://https://litvinov-rsoi-session.herokuapp.com//api/v1/session"
+REPORT_URL = "http://https://litvinov-rsoi-report.herokuapp.com/api/v1/report"
+RATING_URL = "http://https://litvinov-rsoi-rating.herokuapp.com/api/v1/rating"
+CONTROL_URL = "http://litvinov-rsoi-control.herokuapp.com/api/v1/control"
 
 
 def auth(request):
